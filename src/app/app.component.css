@@ -1,0 +1,19 @@
+.header {
+
+  background-color: rgb(28, 46, 4);
+  display: block;
+  padding: 3%;
+  color: white;
+  font-size: 26px;
+}
+
+.navbar-brand {
+
+  padding: 0;
+
+}
+
+  a .fa{
+
+    font-size: 1.5rem;
+  }

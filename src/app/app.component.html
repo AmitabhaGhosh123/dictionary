@@ -1,0 +1,49 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<mdb-navbar SideClass="navbar fixed-top navbar-expand-md navbar-dark  purple accent-4 scrolling-navbar  ie-nav" [containerInside]="false">
+
+  <logo>
+    <p>Oxford Dictionary</p>
+
+  </logo>
+ 
+    <links>
+      
+      <ul class="navbar-nav ml-auto">
+
+        <li class="nav-item active waves-light" routerLinkActive=" active" mdbWavesEffect>
+
+          <a class="nav-link white-text" routerLink="/">Home</a>
+
+        </li>
+
+        <li class="nav-item waves-light" routerLinkActive=" active" mdbWavesEffect>
+
+          <a class="nav-link white-text" routerLink="/about">About</a>
+
+        </li>
+
+      </ul>
+
+    </links>
+
+  </mdb-navbar> 
+             
+
+
+<!-- Footer-->
+<footer class="footer font-small mt-4 accent-4 ">    
+  <div class="container" style="text-align:center">
+
+      <div class="footer-copyright py-3">Powered
+
+          <i class="fa fa-fire p-1 yellow-text"></i> By
+      
+          <a href="https://en.oxforddictionaries.com" target="_blank" rel="noopener">Oxford Dictionaries</a>
+      
+      </div>    
+  </div>
+
+</footer>
+
+<router-outlet></router-outlet>
+
